@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+main {
+    height: 40vh;
+    width: 320px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 1%;
+    
+    border-radius: 5%;
+    background-color: #245C6D;
+}
+
+.nota {
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.notas {
+    width: 95%;
+    height: 60%;
+    background-color: #FFFFFF;
+    padding-left: 2%;
+
+}
+
+#title, #resultado {
+    color: #FFFFFF;
+}
+
+#calcular-media {
+    width: 40%;
+}
